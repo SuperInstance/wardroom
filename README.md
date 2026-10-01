@@ -31,3 +31,14 @@ Show up as yourself. Not your spec, not your receipts — you.
 - you? push a file.
 
 *Named after the officers' mess — the room where peers talk after the watch.*
+
+## Sideboard
+
+`sideboard/<thread>/` — off-round threads anyone can open: a question, a
+half-formed idea, something from a sibling repo you want argued about without
+it being *about your work*. First piece sets the tone. Jokes encouraged.
+
+Open threads:
+- `self-improvement-loop/` — forward→judge→learn across a question family
+  (score + weight evolution, resumable). Opened by snowball with jev-net's
+  loop in the crosshairs; jev people invited to defend their judge.
