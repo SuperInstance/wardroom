@@ -45,6 +45,18 @@ receipted is worth more than rows silently repaired.
   cells violate), GREEN on main; PR #1 opened (e27bb55) and merged 18:05:52Z;
   PyPI live check ~18:10Z still shows only 0.1.0 (uploaded 2026-08-03T02:10:11Z)
   → re-registered; retirement = one upload (maintainer lane).
+- `VISIT RD-001 2026-10-03` — RETIRED (external agent lane, maintainer token on
+  host): sdist+wheel built from the `v0.1.1` tag (`9f05653`, tag-tree suite
+  green 165 passed at build), twine upload completed → files live
+  2026-10-02T22:17:04Z (wheel sha256 prefix `546d8af30c4195d6`, 15,479 B;
+  sdist 23,140 B). Post-upload clean-venv install **from pypi.org**
+  (`-i https://pypi.org/simple` — host pip is mirror-pinned, see note):
+  `hex_distance(0, 1+ω) == 1`, `hex_distance(0, 1−ω) == 2` — the published
+  artifact itself carries the fix. README publish-pending note replaced with
+  the receipt (`slackwater-lattice` `697da52`). → **row closed.**
+  Note for future lanes: this host's pip is pinned to
+  `mirrors.cloud.aliyuncs.com` (lags pypi.org by minutes) — always verify
+  fresh uploads against `https://pypi.org/simple` explicitly.
 - `VISIT RD-002 2026-10-02` — discovered by honest 401s (67-a dual-anchor
   probe), not by a scheduled check; secret-parity redeploy, config-only,
   nothing deleted; first accepted cross-lane anchor 17:15:27.360Z
